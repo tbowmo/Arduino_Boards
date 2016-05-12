@@ -1,0 +1,75 @@
+{
+   "packages":[
+      {
+         "name":"MySensors",
+         "maintainer":"MySensors",
+         "websiteURL":"https://MySensors.org",
+         "email":"TechSupport@MySensors.org",
+         "help":{
+            "online":"https://forum.MySensors.org"
+         },
+         "platforms":[
+            {
+               "name":"MySensors AVR Boards",
+               "architecture":"avr",
+               "version":"1.1.5",
+               "category":"Contributed",
+               "url":"https://github.com/tbowmo/Arduino_Boards/raw/master/MySensors-avr.1.0.0.tar.bz2",
+               "archiveFileName":"MySensors-avr.1.0.0.tar.bz2",
+               "checksum":"SHA-256:3822e5e738ad9bae0b5f10e81d29476922f094810516f4cb6d695222d3920a37",
+               "size":"184904",
+               "help":{
+                  "online":"https://forums.MySensors.org"
+               },
+               "boards":[
+                  { "name":"SenseBender Micro" }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools":[]
+      },
+	  {
+         "name":"MySensors",
+         "maintainer":"MySensors Electronics",
+         "websiteURL":"https://MySensors.org",
+         "email":"TechSupport@MySensors.org",
+         "help":{
+            "online":"https://forum.MySensors.org"
+         },
+         "platforms":[
+            {
+               "name":"MySensors SAMD Boards (dependency: Arduino SAMD Boards 1.6.5)",
+               "architecture":"samd",
+               "version":"1.0.0",
+               "category":"Contributed",
+               "url":"https://github.com/tbowmo/Arduino_Boards/raw/master/MySensors-samd-1.0.0.tar.bz2",
+               "archiveFileName":"MySensors-samd-1.0.0.tar.bz2",
+               "checksum":"SHA-256:2b406656189177f75d215cfcb78993468e9fbcd8770a41a0fbd254a527aa7051",
+               "size":"143336",
+               "help":{
+                  "online":"https://forums.MySensors.org"
+               },
+               "boards":[
+                  { "name":"MySensors SAMD21 GW" }
+               ],
+               "toolsDependencies":[
+               ]
+            }
+         ],
+         "tools":[
+		 ]
+    }
+   ]
+}
