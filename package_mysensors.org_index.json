@@ -54,7 +54,7 @@
                "architecture":"samd",
                "version":"1.0.0",
                "category":"Contributed",
-               "url":"https://github.com/tbowmo/Arduino_Boards/raw/master/MySensors-samd-1.0.0.tar.bz2",
+               "url":"https://github.com/tbowmo/Arduino_Boards/raw/master/MySensors-samd.1.0.0.tar.bz2",
                "archiveFileName":"MySensors-samd-1.0.0.tar.bz2",
                "checksum":"SHA-256:2b406656189177f75d215cfcb78993468e9fbcd8770a41a0fbd254a527aa7051",
                "size":"143336",
